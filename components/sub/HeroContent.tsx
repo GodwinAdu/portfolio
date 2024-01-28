@@ -15,7 +15,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center lg:px-20 md:px-10 px-4 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -44,23 +44,23 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="md:text-lg text-sm text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a seasoned Full Stack Software Engineer, specializing in the development of websites, mobile apps, and software solutions. Take a look at my showcased projects and skill set.
+          I&apos;m Godwin Adu, a seasoned Full Stack Software Engineer, specializing in the development of websites, mobile apps, and software solutions. Take a look at my showcased projects and skill set.
         </motion.p>
-        <div className="flex gap-5 items-center">
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg "
-        >
-          Learn More!
-        </motion.a>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg "
-        >
-          Resume
-        </motion.a>
+        <div className="flex gap-4 items-center">
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg "
+          >
+            Learn More!
+          </motion.a>
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg "
+          >
+            Resume
+          </motion.a>
         </div>
       </div>
 

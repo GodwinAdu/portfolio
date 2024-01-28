@@ -6,8 +6,8 @@ import {MobileMenu }from "@/components/main/MobileMenu"
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-1 md:px-10">
+      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px] ">
         <a
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
@@ -20,7 +20,7 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           /> */}
 
-          <span className="font-bold ml-[10px]  text-gray-300">
+          <span className="font-bold sm:text-sm md:text-md ml-[10px]  text-gray-300">
             Jutech Dev
           </span>
         </a>
